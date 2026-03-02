@@ -1,6 +1,6 @@
 # Device Fault Detection
 ### IEEE SB GEHU ML Challenge — Round 1 | Team Hashmap
-
+Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/
 ---
 
 ## What We Built
