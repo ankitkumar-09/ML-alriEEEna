@@ -202,7 +202,7 @@ ID,CLASS
 
 File saved as:
 ```
-FINAL_LGBM.csv
+Model_Training.csv
 ```
 
 ---
@@ -232,13 +232,6 @@ FINAL_LGBM.csv
 
 ---
 
-#  Future Improvements
-
-- ROC-AUC Curve visualization
-- SHAP interpretability plots
-- Optuna Hyperparameter tuning
-- Threshold optimization
-- Model deployment using FastAPI or Streamlit
 
 ---
 
