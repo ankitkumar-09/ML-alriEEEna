@@ -172,41 +172,19 @@ Tree-based models successfully captured nonlinear interactions among features.
 
 ```mermaid
 flowchart TD
-
-    A[Load TRAIN & TEST] --> B[Exploratory Data Analysis]
-    B --> C[Feature Distribution Analysis]
+    A[Load TRAIN & TEST] --> B[EDA]
+    B --> C[Feature Distribution]
     B --> D[Correlation Analysis]
-
-    C --> E[Stratified Train-Test Split]
-    D --> E
-
+    C --> E[Train-Test Split]
     E --> F[Random Forest Training]
     E --> G[LightGBM Training]
-
-    F --> H[Evaluate Random Forest]
-    G --> I[Evaluate LightGBM]
-
-    H --> J[5-Fold Cross Validation]
-    I --> J
-
-    J --> K[Model Comparison & Selection]
-    K --> L[Train Best Model on Full Dataset]
-    L --> M[Test Predictions]
-    M --> N[Generate Model_Training.csv]
-
-    %% Color Definitions
-    classDef data fill:#EAF2F8,stroke:#2E86C1,stroke-width:2px,color:#000;
-    classDef eda fill:#F4ECF7,stroke:#8E44AD,stroke-width:2px,color:#000;
-    classDef model fill:#FEF9E7,stroke:#F1C40F,stroke-width:2px,color:#000;
-    classDef eval fill:#FDEDEC,stroke:#C0392B,stroke-width:2px,color:#000;
-    classDef deploy fill:#E8F8F5,stroke:#17A589,stroke-width:2px,color:#000;
-
-    %% Class Assignments
-    class A,E,L,M,N data;
-    class B,C,D eda;
-    class F,G model;
-    class H,I,J,K eval;
-```
+    G --> H[Validation Metrics]
+    H --> I[5-Fold Cross Validation]
+    I --> J[Final Model Selection]
+    J --> K[Train on Full Dataset]
+    K --> L[Test Predictions]
+    L --> M[Generate Model_Training.csv]
+``` 
 ---
 
 #  Final Submission Format
