@@ -1,10 +1,9 @@
 # Device Fault Detection
 ### IEEE SB GEHU ML Challenge — Round 1 | Team Hashmap
-Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/
 ---
 
 ## What We Built
-
+Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/
 We trained a machine learning model that looks at 47 sensor readings from a device and tells you whether it's running fine or about to cause trouble. Simple as that.
 
 The model outputs:
