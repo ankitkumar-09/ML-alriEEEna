@@ -105,9 +105,9 @@ https://fault-detection-system-hashmap.streamlit.app/
 
 Drop in any CSV with `ID` and `F01–F47` columns. The app will predict each device's status, show you confidence scores, and let you download the results. If you have ground truth labels, it'll also show accuracy, F1, confusion matrix — the works.
 
----
 
-## 🖥️ Running Locally (Manual Setup)
+
+##  Running Locally (Manual Setup)
 
 ### 1. Clone the GitHub Repository
 
