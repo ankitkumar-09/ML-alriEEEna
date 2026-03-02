@@ -1,5 +1,5 @@
 # Device Fault Detection
-### IEEE SB GEHU ML Challenge — Round 1 | Team Hashmap
+### IEEE SB GEHU ML alriEEEna — Round 1 | Team Hashmap
 ---
 
 Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/
@@ -88,24 +88,19 @@ flowchart TD
 ## Project Files
 
 ```
-├── TRAIN.csv               # Training data
-├── TEST.csv                # Test data for submission
+├── Dataset
+        ├── TEST.csv        # Test data for submission
+        ├── TRAIN.csv       # Training data for model
 ├── EDA.ipynb               # Exploration notebook
 ├── Model_Training.ipynb    # Training & evaluation notebook
 ├── lgb_model.pkl           # Saved model
 ├── Final_Submission.csv    # Our predictions
-├── app.py                  # Streamlit app
 └── README.md
 ```
 
 ---
-
-## Running the App
-
-```bash
-pip install streamlit lightgbm scikit-learn pandas matplotlib seaborn joblib
-streamlit run app.py
-```
+Using Streamlit App
+https://fault-detection-system-hashmap.streamlit.app/
 
 Drop in any CSV with `ID` and `F01–F47` columns. The app will predict each device's status, show you confidence scores, and let you download the results. If you have ground truth labels, it'll also show accuracy, F1, confusion matrix — the works.
 
@@ -117,4 +112,4 @@ Python · Pandas · NumPy · Scikit-learn · LightGBM · Matplotlib · Seaborn �
 
 ---
 
-**Team Hashmap** — built for IEEE SB GEHU ML Challenge
+**Team Hashmap** — built for IEEE SB GEHU ML alriEEEna
