@@ -94,7 +94,7 @@ flowchart TD
 ├── EDA.ipynb               # Exploration notebook
 ├── Final_Submission.csv    # Our predictions
 ├── Model_Training.ipynb    # Training & evaluation notebook
-├── app.py                  #Streamlit app
+├── app.py                  # Streamlit app
 ├── lgb_model.pkl           # Saved model
 └── README.md
 ```
