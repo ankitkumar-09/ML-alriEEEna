@@ -92,7 +92,7 @@ flowchart TD
         ├── TEST.csv        # Test data for submission
         ├── TRAIN.csv       # Training data for model
 ├── EDA.ipynb               # Exploration notebook
-├── Final_Submission.csv    # Our predictions
+├── Final.csv    # Our predictions
 ├── Model_Training.ipynb    # Training & evaluation notebook
 ├── app.py                  # Streamlit app
 ├── lgb_model.pkl           # Saved model
