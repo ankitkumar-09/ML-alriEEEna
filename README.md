@@ -2,7 +2,7 @@
 ### IEEE SB GEHU ML alriEEEna — Round 1 | Team Hashmap
 ---
 
-Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/
+Streamlit App for Real-Time Experience : https://fault-detection-system-hashmap.streamlit.app/ (Built on previous accuracy)
 
 ## What We Built
 We trained a machine learning model that looks at 47 sensor readings from a device and tells you whether it's running fine or about to cause trouble. Simple as that.
