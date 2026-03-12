@@ -165,7 +165,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 Python · Pandas · NumPy · Scikit-learn · LightGBM · Matplotlib · Seaborn · Joblib · Streamlit
 
 ---
-**Ankit Kumar**
-**Aditya Kapruwan**
-**Team Hashmap** — built for IEEE SB GEHU ML alriEEEna
+**Ankit Kumar**<br>
+**Aditya Kapruwan**<br>
+**Team Hashmap** — Built for **IEEE SB GEHU ML Arena**
 
